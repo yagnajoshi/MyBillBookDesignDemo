@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyBillBook</string>
+    <string name="title_home">Home</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_khata">Khata</string>
+    <string name="title_customers">Customers</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_login">MyBillBook</string>
+    <string name="welcome">Welcome,</string>
+    <string name="here_is_yr_db">Here is your dashboard…</string>
+    <string name="add_customers">Add New Customers</string>
+    <string name="add_orders">Add Orders</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="double_dash">--</string>
+    <string name="right_arrow">Right Arrow</string>
+    <string name="more">More</string>
+    <string name="chart">Growth Chart</string>
+    <string name="arrow_up">Arrow Up</string>
+    <string name="view_cust">View Customers</string>
+    <string name="orders">Orders</string>
+    <string name="left">left</string>
+    <string name="string_new_ordr">New Order created</string>
+    <string name="string_new_ordr_2">New Order created with order</string>
+    <string name="no_data">No Data</string>
+    <string name="no_orders_yet">No Orders yet</string>
+    <string name="no_cust">No Customers yet.\nAdd from here…</string>
+    <string name="menu">Menu</string>
+    <string name="likes">Likes</string>
+    <string name="notif">Notification</string>
+
+</resources>

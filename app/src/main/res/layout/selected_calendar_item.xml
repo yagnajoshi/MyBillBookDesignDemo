@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cl_calendar_item"
+    android:layout_width="@dimen/_40sdp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_day_calendar_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#008080"
+        android:textAllCaps="true"
+        android:text="s"
+        android:textStyle="bold"
+        android:textSize="@dimen/_9ssp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5sdp"
+        android:visibility="gone"
+        android:background="@drawable/dashline"
+        android:layerType="software"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_date_calendar_item"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="10"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:textColor="#008080"
+        android:textStyle="bold"
+        android:textSize="@dimen/_10ssp" />
+
+    <ImageView
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:elevation="1dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/peak_dot" />
+
+</LinearLayout>

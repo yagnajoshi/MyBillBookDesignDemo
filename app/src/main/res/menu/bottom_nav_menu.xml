@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home" />
+
+
+    <item
+        android:id="@+id/navigation_customers"
+        android:icon="@drawable/ic_users"
+        android:title="@string/title_customers" />
+
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_khata"
+        android:icon="@drawable/ic_khata"
+        android:title="@string/title_khata" />
+
+    <item
+        android:id="@+id/navigation_orders"
+        android:icon="@drawable/ic_orderss"
+        android:title="@string/title_orders" />
+
+
+</menu>

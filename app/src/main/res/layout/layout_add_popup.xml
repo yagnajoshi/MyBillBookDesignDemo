@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_45sdp"
+     android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_12sdp"
+        android:elevation="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_5sdp">
+
+        <LinearLayout
+            android:padding="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/skyblue"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addCustomers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_customers"
+                android:layout_margin="@dimen/_5sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:paddingEnd="@dimen/_20sdp"
+                android:background="@drawable/btn_dark_bg_round_smallsides"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addOrders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_orders"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/btn_dark_bg_round_smallsides"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
