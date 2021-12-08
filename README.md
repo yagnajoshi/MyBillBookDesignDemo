@@ -10,7 +10,7 @@ This is the MVVM &amp; Kotlin based project for Billing Book App. It is just a d
 
 <B> Demo:</B><Br/>
 <table><tr>
-  <td><img height="440px" width="220px" src="Screenshots/MyBillBook.gif"/></td>
+  <td><img height="440px" width="220px" src="Screeenshots/MyBillBook.gif"/></td>
   </tr></table>
 
 <B> How to test</B>
